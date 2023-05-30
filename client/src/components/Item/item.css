@@ -1,0 +1,64 @@
+/* ====== ITEM STYLES ======== */
+
+div.item{
+    position:relative;
+    background-color: #fff;
+    outline:1px solid #e3e3e3;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding:1rem 0;
+    margin:8px 0;
+    border-radius: 0.35rem;
+    -webkit-border-radius: 0.35rem;
+    -moz-border-radius: 0.35rem;
+    -ms-border-radius: 0.35rem;
+    -o-border-radius: 0.35rem;
+}
+
+
+div.item:hover,
+div.item input[type="checkbox"]:hover{
+    cursor: pointer;
+    outline: 1px solid var(--clr-secondary);
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+div.item input[type="checkbox"]{
+    margin:0 8px;
+    vertical-align: middle;
+}
+
+ 
+div.item span{
+    text-transform: capitalize;
+    vertical-align: middle;
+    margin-left: 5px;
+    font-weight: var(--font-reg);
+}
+
+div.item button.deletItem{
+    background: transparent;
+    display: inline-block;
+    position: absolute;
+    z-index: 99;
+    right:0;
+    top:0rem;
+    padding:0.65rem 0.75rem;
+    visibility: hidden;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+}
+div.item:hover >  button.deletItem{
+    visibility: visible;
+    outline:none;
+}
+
+div.item button.deletItem svg{
+    fill: #c4c9c8;
+}

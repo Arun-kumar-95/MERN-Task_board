@@ -1,0 +1,93 @@
+
+:root{
+
+    --width: 100%;
+    --min-height:100vh;
+    --min-width:320px;
+    --max-width:100%;
+
+    /*===== TYPOGRAPHY =======*/
+    --font-base: 62.5% !important;
+    --font-fmly: 'Mulish', sans-serif;
+    
+    /*===== COLOR =======*/
+    --clr-bg: #E4E4E4;
+    --clr-bg: #F3F2EF;
+    --clr-bg: #ECECF1;
+    --clr-text: #212121;
+    --clr-primary: #0179C1;
+    --clr-secondary: #198355;
+    --clr-assets: #4db1f0;
+    --clr-list-bg:#d9d9d9;
+
+    /*===== font weight =======*/
+     --font-reg: 400;
+     --font-med: 500;
+     --font-bold: 700;
+}
+
+* , *::before , *::after{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+
+html{
+    font-size: var(--font-base);
+    scroll-behavior: smooth;
+}
+
+button , input {
+    font-family: inherit !important;
+}
+
+button , input{
+    border:none;
+    outline:none;
+}
+
+button:focus{
+    outline:1px solid;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+span , p , a, label{
+    font-size: 1.3rem;
+    font-weight: (--font-reg);
+}
+
+a{
+    text-decoration: none;
+}
+ 
+a.link-active{
+    text-decoration: underline;
+}
+
+
+h1{
+    font-size: 1.4rem;
+}
+
+button.btn{
+    background: transparent;
+}
+body{
+    width: var(--width);
+    min-width:var(--min-width);
+    min-height:var(--min-height);
+    font-weight: var(--font-reg);
+    font-family: var(--font-fmly); 
+    background-color: var(--clr-bg);
+    user-select: none; 
+}
+
+::-webkit-scrollbar{
+    display:none;
+} 
+ 

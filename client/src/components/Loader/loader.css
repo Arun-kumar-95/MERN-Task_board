@@ -1,0 +1,36 @@
+div.loader__container{
+  position: relative;
+  display: inline-block;
+  width:28px;
+  height:28px;
+}
+
+.loader__container > div{
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #34db55;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  
+  animation: spin 1s linear infinite;
+  -webkit-animation: spin 1s linear infinite;
+
+  transition: opaciity 0.75s , visibility 0.75s;
+  -webkit-transition: opaciity 0.75s , visibility 0.75s;
+  -moz-transition: opaciity 0.75s , visibility 0.75s;
+  -ms-transition: opaciity 0.75s , visibility 0.75s;
+  -o-transition: opaciity 0.75s , visibility 0.75s;
+}
+
+.loader--hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+

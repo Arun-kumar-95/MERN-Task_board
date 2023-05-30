@@ -1,0 +1,67 @@
+/* create-list */
+
+div.create-list{
+    outline:1px solid #e3e3e3;
+    min-width:220px;
+    display: block;
+    margin-top: 10px;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+}
+
+div.create-list div.title{
+    background-color: #d9d9d9;
+    padding:0.75rem 1rem;
+}
+
+div.create-list div.title p{
+    font-size: 1.4rem;
+}
+
+
+div.create-list form{
+    background-color: #f5f5f5;
+    display:block;
+}
+div.create-list form input{
+    margin-top:2em;
+    width: 100%;
+    text-indent: 1.5rem;
+    padding: 1rem 0;
+    background-color: #f5f5f5;
+   
+}
+
+
+div.create-list form svg{
+  vertical-align: middle;
+  margin-right: 0.5em;
+}
+
+div.create-list form button[type="submit"]{
+    width: 100%;
+    display:block;
+    margin-top:1em;
+    background-color: var(--clr-secondary);
+    padding:0.5rem 0;
+    color: #f2f2f2;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    border-radius: 0.25rem ;
+    -webkit-border-radius: 0.25rem ;
+    -moz-border-radius: 0.25rem ;
+    -ms-border-radius: 0.25rem ;
+    -o-border-radius: 0.25rem ;
+}
+div.create-list form button:hover{
+    opacity: 0.9;
+}
+
+
+div.create-list form button[type="submit"] span{
+    vertical-align: middle;
+}

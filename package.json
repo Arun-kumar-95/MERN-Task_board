@@ -1,0 +1,29 @@
+{
+  "name": "task_board",
+  "version": "1.0.0",
+  "description": "Building an task board where user can create his own task list and manage them",
+  "main": "./backend/index.js",
+  "scripts": {
+    "dev": "nodemon ./backend/index.js"
+  },
+  "keywords": [
+    "MERN",
+    "TASK_BOARD",
+    "JWT"
+  ],
+  "author": "Arun kumar",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.2.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.22"
+  }
+}

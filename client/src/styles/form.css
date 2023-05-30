@@ -1,0 +1,61 @@
+div.form-container{
+    max-width:400px;
+    margin:0 auto;
+    position: relative;
+}
+
+
+/* =======  FORM =======*/
+
+div.form-container form{
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    margin-top:4em;
+    padding:4rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+div.form-container form label{
+    display:block;
+    font-weight:bold;
+    margin-bottom:0.5em;
+    color: #212121;
+}
+
+div.form-container form input{
+    margin-bottom:1.2em;
+    width: 100%;
+    border-bottom:1px solid var(--clr-bg);
+    padding:0.5rem 0;
+    text-indent: 0.5rem;
+}
+
+div.form-container form input:focus{
+    border-bottom:1px solid var(--clr-assets);
+}
+
+div.form-container form button.btnSubmit{
+    background-color: var(--clr-secondary);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    color: #ffff;
+    margin-top:1em;
+    padding:1rem 2rem;
+    border-radius: 0.24rem;
+    -webkit-border-radius: 0.24rem;
+    -moz-border-radius: 0.24rem;
+    -ms-border-radius: 0.24rem;
+    -o-border-radius: 0.24rem;
+}
+
+div.form-container form button.btnSubmit:focus,
+div.form-container form button.btnSubmit:hover{
+    outline:1px solid var(--clr-secondary);   
+}
+
+div.form-container form button.btnSubmit:focus{
+    outline-offset: 2px;
+}
