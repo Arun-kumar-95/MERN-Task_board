@@ -51,23 +51,6 @@ url : http://localhost:5000/app/v1/list
 - remove list (DELET) : /remove-list/listid
 - update list item (PUT) : /update-list/?lid=oldlistid&drag_lid=newlidid
 
-
-
-
-
-
-
-
-
-## Screenshots
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
-
-
-
-
-
 ## Authors
 
 - Arun kumar: https://github.com/Arun-kumar-95
